@@ -1,0 +1,10 @@
+# Copy to .dev.vars (gitignored) for `npx wrangler pages dev`.
+# In production set these in Cloudflare Pages > Settings > Variables and Secrets,
+# for BOTH Production and Preview. META_ACCESS_TOKEN must be an encrypted secret.
+
+META_PIXEL_ID=
+META_ACCESS_TOKEN=
+# Use the current Graph API version from Meta's changelog.
+META_API_VERSION=v24.0
+# Optional. From Events Manager > Test Events. Leave empty in production.
+META_TEST_EVENT_CODE=

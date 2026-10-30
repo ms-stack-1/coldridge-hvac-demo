@@ -1,0 +1,12 @@
+{
+  "name": "coldridge-hvac-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Fictional HVAC lead-gen landing page with GA4 (GTM), Meta Pixel and Meta Conversions API deduplication.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "node tests/run.mjs",
+    "dev": "npx wrangler pages dev"
+  }
+}

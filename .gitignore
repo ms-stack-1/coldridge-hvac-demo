@@ -1,0 +1,7 @@
+# local secrets for `wrangler pages dev`; never commit
+.dev.vars
+.wrangler/
+
+node_modules/
+.DS_Store
+Thumbs.db
